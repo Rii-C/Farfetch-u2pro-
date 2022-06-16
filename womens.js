@@ -35,25 +35,34 @@
   },
 
   ];
-
-  
+ 
   data1.forEach(function (elem) {
     let card = document.createElement("div")
+
     let pic = document.createElement("img")
     pic.setAttribute("src", elem.img)
+   
     let first1 = document.createElement("p")
     first1.innerText = elem.p1
+
     let H3 = document.createElement("h3")
     H3.innerText = elem.h3
+
     let first2 = document.createElement("p")
     first2.innerText = elem.p2
-    first3 = document.createElement("p")
+
+    let first3 = document.createElement("p")
     first3.innerText = elem.p3
+
+  
+
     card.append(pic, first1, H3, first2, first3)
     document.querySelector("#CARD").append(card)
 
   })
 
+
+  
   let data2 = [
     {
     image: "https://cdn-static.farfetch-contents.com/cms-cm10/caas/v1/media/3611526/data/31b9e2c9e1c0a9c74befcfacc59d9b72/3x4_three-columns/480/data",
@@ -141,7 +150,7 @@
     photo.setAttribute("src", elem.image)
     let Pr1 = document.createElement("p")
     Pr1.innerText = elem.t1
-    let Pr2 = document.createElement("p")
+    let Pr2 = document.createElement("h4")
     Pr2.innerText = elem.t2
     let Pr3 = document.createElement("p")
     Pr3.innerText = elem.t3
