@@ -1,0 +1,19 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+#containerSA {
+    width: 100%;
+    padding: 48px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+#containerSA > #b {
+    text-align: center;
+    margin: 0px 0px 0px 24px;
+    padding: 48px 48px 0px;
+    width
+}
