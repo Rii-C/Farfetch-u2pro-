@@ -1,0 +1,124 @@
+data=[{
+    image_url : https://cdn-images.farfetch-contents.com/18/56/91/66/18569166_40085985_480.jpg,
+    info : New Season 
+    name : KENZO
+    description : Tiger-embroided organic cotton hoodie 
+    price : $516
+},
+  {
+    image_url : https://cdn-images.farfetch-contents.com/18/36/26/30/18362630_40060060_480.jpg,
+    info : new seasson,
+    name : VALENTINO,
+    description : camouflage-print cotton T-shirt,
+    price : $617
+}   {
+    image_url :https://cdn-images.farfetch-contents.com/18/57/28/90/18572890_40034601_480.jpg,
+    info : new seasson,
+    name : Dsquared2,
+    description : paint splatter slim-cut jeans,
+    price : $810}
+},{
+    image url : https://cdn-images.farfetch-contents.com/18/56/97/63/18569763_40086525_480.jpg,
+    info : new seasson,
+    name : Alecander McQueen
+    description : Court trainer chunky sneakers,
+    price : $1,123}
+    
+},{
+    image url : https://cdn-images.farfetch-contents.com/18/56/93/40/18569340_40081086_480.jpg,
+    info : new seasson,
+    name : Moncler,
+    description :logo-print zip-fastening jacket,
+    price : $1,397}
+
+},{
+    image url : https://cdn-images.farfetch-contents.com/18/57/21/22/18572122_40072177_480.jpg,
+    info : new seasson,
+    name : Balmain,
+    description :monogram-print baseball cap,
+    price : $355}
+
+},{
+    image url : https://cdn-images.farfetch-contents.com/18/41/31/91/18413191_40066147_480.jpg,
+    info : new seasson,
+    name : JW Anderson,
+    description : swirl-logo T-shirt,
+    price : $165}
+
+},{
+    image url : https://cdn-images.farfetch-contents.com/18/41/31/91/18413191_40066147_480.jpg,
+    info : new seasson,
+    name : JW Anderson,
+    description : swirl-logo T-shirt,
+    price : $165}
+
+},{
+   image url : https://cdn-images.farfetch-contents.com/18/49/73/98/18497398_40099212_480.jpg,
+   info : new seasson,
+   name : Garrett Leight,
+   description : cartlon round-frame sunglasses,
+   price : $559}
+
+},{
+   image url : https://cdn-images.farfetch-contents.com/18/57/10/68/18571068_40073424_480.jpg,
+   info : new seasson,
+   name : TOM FORD,
+   description :panelled high-top sneakers,
+   price : $1,363}
+
+},{
+   image url :https://cdn-images.farfetch-contents.com/18/57/03/85/18570385_40090540_480.jpg,
+   info : new seasson,
+   name : Dsquared2,
+   description : icon colour-block-logo-print jacket,
+   price : $1,120}
+
+   
+},{
+   image url :https://cdn-images.farfetch-contents.com/18/57/93/81/18579381_40078526_480.jpg,
+   info : new seasson,
+   name : Balmin,
+   description : logo-print short-sleeved T-shirt,
+   price : $431}
+     
+},{
+   image url :https://cdn-images.farfetch-contents.com/18/55/55/00/18555500_40055871_480.jpg,
+   info : new seasson,
+   name : Valentino,
+   description : VLogo bucket hat,
+   price : $607}
+
+},{
+   image url :https://cdn-images.farfetch-contents.com/18/57/85/34/18578534_40089084_480.jpg,
+   info : new seasson,
+   name : 7 For All Mankind,
+   description : regular-cut leg jeans,
+   price : $358}
+
+},{
+   image url : https://cdn-images.farfetch-contents.com/18/54/12/51/18541251_40032701_480.jpg,
+   info : new seasson,
+   name : Rhude,
+   description : high-top leather sneakers,
+   price : $951}
+   
+},{
+   image url : https://cdn-images.farfetch-contents.com/18/57/13/76/18571376_40070953_480.jpg,
+   info : new seasson,
+   name : Giorgio Armani,
+   description : fitted button-up overshirt,
+   price : $4,020}
+     
+},{
+   image url :https://cdn-images.farfetch-contents.com/18/56/83/78/18568378_40071882_480.jpg,
+   info : new seasson,
+   name : Vivienne Westwood,
+   description : signature Orb-plaque crossbody-bag,
+   price : $1,237}
+},{
+   image url :https://cdn-images.farfetch-contents.com/18/56/19/76/18561976_40048329_480.jpg,
+   info : new seasson,
+   name :AMIRI,
+   description : monogram-print short sleeved shirt,
+   price : $1,497}
+}]
