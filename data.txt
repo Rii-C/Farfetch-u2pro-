@@ -1,124 +1,305 @@
-data=[{
-    image_url : https://cdn-images.farfetch-contents.com/18/56/91/66/18569166_40085985_480.jpg,
-    info : New Season 
-    name : KENZO
-    description : Tiger-embroided organic cotton hoodie 
-    price : $516
+mensData=[{
+    image_url :"https://cdn-images.farfetch-contents.com/18/56/91/66/18569166_40085985_480.jpg",
+    image_url2:"https://cdn-images.farfetch-contents.com/18/56/91/66/18569166_40092284_1000.jpg",
+    info :"New Season",
+    name : "KENZO",
+    description : "Tiger-embroided organic cotton hoodie", 
+    price : "$516"
 },
   {
-    image_url : https://cdn-images.farfetch-contents.com/18/36/26/30/18362630_40060060_480.jpg,
-    info : new seasson,
-    name : VALENTINO,
-    description : camouflage-print cotton T-shirt,
-    price : $617
+    image_url : "https://cdn-images.farfetch-contents.com/18/36/26/30/18362630_40060060_480.jpg",
+    image_url2:"https://cdn-images.farfetch-contents.com/18/36/26/30/18362630_40060078_1000.jpg",
+    info : "new seasson",
+    name : "VALENTINO",
+    description :"camouflage-print cotton T-shirt",
+    price :"$617"
 }   {
-    image_url :https://cdn-images.farfetch-contents.com/18/57/28/90/18572890_40034601_480.jpg,
-    info : new seasson,
-    name : Dsquared2,
-    description : paint splatter slim-cut jeans,
-    price : $810}
+    image_url :"https://cdn-images.farfetch-contents.com/18/57/28/90/18572890_40034601_480.jpg",
+    image_url2:"https://cdn-images.farfetch-contents.com/18/57/28/90/18572890_40034595_1000.jpg",
+    info : "new seasson",
+    name : "Dsquared2",
+    description :"paint splatter slim-cut jeans",
+    price : "$810"
 },{
-    image url : https://cdn-images.farfetch-contents.com/18/56/97/63/18569763_40086525_480.jpg,
-    info : new seasson,
-    name : Alecander McQueen
-    description : Court trainer chunky sneakers,
-    price : $1,123}
+    image url : "https://cdn-images.farfetch-contents.com/18/56/97/63/18569763_40086525_480.jpg",
+    image_url2:"https://cdn-images.farfetch-contents.com/18/56/97/63/18569763_40086518_1000.jpg",
+    info : "new seasson",
+    name : "Alecander McQueen"
+    description : "Court trainer chunky sneakers",
+    price : "$1,123"
     
 },{
-    image url : https://cdn-images.farfetch-contents.com/18/56/93/40/18569340_40081086_480.jpg,
-    info : new seasson,
-    name : Moncler,
-    description :logo-print zip-fastening jacket,
-    price : $1,397}
+    image url : "https://cdn-images.farfetch-contents.com/18/56/93/40/18569340_40081086_480.jpg",
+    image_url2:"https://cdn-images.farfetch-contents.com/18/56/93/40/18569340_40081101_1000.jpg",
+    info : "new seasson",
+    name : "Moncler",
+    description :"logo-print zip-fastening jacket",
+    price : "$1,397"
 
 },{
-    image url : https://cdn-images.farfetch-contents.com/18/57/21/22/18572122_40072177_480.jpg,
-    info : new seasson,
-    name : Balmain,
-    description :monogram-print baseball cap,
-    price : $355}
+    image url : "https://cdn-images.farfetch-contents.com/18/57/21/22/18572122_40072177_480.jpg",
+    image_url2:"https://cdn-images.farfetch-contents.com/18/57/21/22/18572122_40072187_1000.jpg",
+    info : "new seasson",
+    name : "Balmain",
+    description :"monogram-print baseball cap",
+    price : "$355"
 
 },{
-    image url : https://cdn-images.farfetch-contents.com/18/41/31/91/18413191_40066147_480.jpg,
-    info : new seasson,
-    name : JW Anderson,
-    description : swirl-logo T-shirt,
-    price : $165}
-
-},{
-    image url : https://cdn-images.farfetch-contents.com/18/41/31/91/18413191_40066147_480.jpg,
-    info : new seasson,
-    name : JW Anderson,
-    description : swirl-logo T-shirt,
-    price : $165}
-
+    image url : "https://cdn-images.farfetch-contents.com/18/41/31/91/18413191_40066147_480.jpg",
+    image_url2:"https://cdn-images.farfetch-contents.com/18/41/31/91/18413191_40066150_1000.jpg",
+    info : "new seasson",
+    name : "JW Anderson",
+    description : "swirl-logo T-shirt",
+    price : "$165"
 },{
    image url : https://cdn-images.farfetch-contents.com/18/49/73/98/18497398_40099212_480.jpg,
-   info : new seasson,
-   name : Garrett Leight,
-   description : cartlon round-frame sunglasses,
-   price : $559}
+   image_url2:"https://cdn-images.farfetch-contents.com/18/49/73/98/18497398_40099210_1000.jpg",
+   info : "new seasson",
+   name : "Garrett Leight",
+   description : "cartlon round-frame sunglasses",
+   price : "$559"
 
 },{
-   image url : https://cdn-images.farfetch-contents.com/18/57/10/68/18571068_40073424_480.jpg,
-   info : new seasson,
-   name : TOM FORD,
-   description :panelled high-top sneakers,
-   price : $1,363}
+   image url : "https://cdn-images.farfetch-contents.com/18/57/10/68/18571068_40073424_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/57/10/68/18571068_40075774_1000.jpg",                                                                                                                                                                                                                 
+   info : "new seasson",
+   name : "TOM FORD",
+   description :"panelled high-top sneakers",
+   price : "$1,363"
 
 },{
-   image url :https://cdn-images.farfetch-contents.com/18/57/03/85/18570385_40090540_480.jpg,
-   info : new seasson,
-   name : Dsquared2,
-   description : icon colour-block-logo-print jacket,
-   price : $1,120}
+   image url :"https://cdn-images.farfetch-contents.com/18/57/03/85/18570385_40090540_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/57/03/85/18570385_40089393_1000.jpg",
+   info : "new seasson",
+   name : "Dsquared2",
+   description : "icon colour-block-logo-print jacket",
+   price : "$1,120"
 
    
 },{
-   image url :https://cdn-images.farfetch-contents.com/18/57/93/81/18579381_40078526_480.jpg,
-   info : new seasson,
-   name : Balmin,
-   description : logo-print short-sleeved T-shirt,
-   price : $431}
+   image url :"https://cdn-images.farfetch-contents.com/18/57/93/81/18579381_40078526_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/57/93/81/18579381_40077426_1000.jpg",
+   info : "new seasson",
+   name : "Balmin",
+   description : "logo-print short-sleeved T-shirt",
+   price : "$431"
      
 },{
-   image url :https://cdn-images.farfetch-contents.com/18/55/55/00/18555500_40055871_480.jpg,
-   info : new seasson,
-   name : Valentino,
-   description : VLogo bucket hat,
-   price : $607}
+   image url :"https://cdn-images.farfetch-contents.com/18/55/55/00/18555500_40055871_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/55/55/00/18555500_40056514_1000.jpg",
+   info : "new seasson",
+   name : "Valentino",
+   description : "VLogo bucket hat",
+   price : "$607"
 
 },{
-   image url :https://cdn-images.farfetch-contents.com/18/57/85/34/18578534_40089084_480.jpg,
-   info : new seasson,
-   name : 7 For All Mankind,
-   description : regular-cut leg jeans,
-   price : $358}
+   image url :"https://cdn-images.farfetch-contents.com/18/57/85/34/18578534_40089084_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/57/85/34/18578534_40089075_1000.jpg",
+   info : "new seasson",
+   name : "7 For All Mankind",
+   description : "regular-cut leg jeans",
+   price : "$358"
 
 },{
-   image url : https://cdn-images.farfetch-contents.com/18/54/12/51/18541251_40032701_480.jpg,
-   info : new seasson,
-   name : Rhude,
-   description : high-top leather sneakers,
-   price : $951}
+   image url : "https://cdn-images.farfetch-contents.com/18/54/12/51/18541251_40032701_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/54/12/51/18541251_40032707_1000.jpg",
+   info : "new seasson",
+   name : "Rhude",
+   description : "high-top leather sneakers",
+   price : "$951"
    
 },{
-   image url : https://cdn-images.farfetch-contents.com/18/57/13/76/18571376_40070953_480.jpg,
-   info : new seasson,
-   name : Giorgio Armani,
-   description : fitted button-up overshirt,
-   price : $4,020}
+   image url : "https://cdn-images.farfetch-contents.com/18/57/13/76/18571376_40070953_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/57/13/76/18571376_40071607_1000.jpg",
+   info : "new seasson",
+   name : "Giorgio Armani",
+   description : "fitted button-up overshirt",
+   price : "$4,020"
      
 },{
-   image url :https://cdn-images.farfetch-contents.com/18/56/83/78/18568378_40071882_480.jpg,
-   info : new seasson,
-   name : Vivienne Westwood,
-   description : signature Orb-plaque crossbody-bag,
-   price : $1,237}
+   image url :"https://cdn-images.farfetch-contents.com/18/56/83/78/18568378_40071882_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/56/83/78/18568378_40071885_1000.jpg",
+   info : "new seasson",
+   name : "Vivienne Westwood",
+   description : "signature Orb-plaque crossbody-bag",
+   price : "$1,237"
 },{
-   image url :https://cdn-images.farfetch-contents.com/18/56/19/76/18561976_40048329_480.jpg,
-   info : new seasson,
-   name :AMIRI,
-   description : monogram-print short sleeved shirt,
-   price : $1,497}
+   image url :"https://cdn-images.farfetch-contents.com/18/56/19/76/18561976_40048329_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/56/19/76/18561976_40053559_1000.jpg",
+   info : "new seasson",
+   name :"AMIRI",
+   description : "monogram-print short sleeved shirt",
+   price : "$1,497"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/56/96/53/18569653_40072979_1000.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/56/96/53/18569653_40072982_1000.jpg",
+   info : "new seasson",
+   name :"Giorgio armani",
+   description : "pleated tailored trousers",
+   price : "$1,488(Import duties included)"
+   
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/56/97/86/18569786_40088086_1000.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/56/97/86/18569786_40088088_1000.jpg",
+   info : "new seasson",
+   name :"Alexander McQueen",
+   description : "lace-up leather ankle boots",
+   price : "$1,536(Import duties included)"
+
+},{
+   image url :"https://www.farfetch.com/in/shopping/men/balmain-button-embossed-knitted-jumper-item-18572960.aspx?storeid=9681",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/57/29/60/18572960_40063399_600.jpg",
+   info : "new seasson",
+   name :"Balmain",
+   description : "button-embossed knitted jumper",
+   price : "$1,223(Import duties included)"
+
+},{
+                        womens data have to commit it...
+   image url :"https://cdn-images.farfetch-contents.com/18/53/85/36/18538536_39923874_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/53/85/36/18538536_39925286_600.jpg",
+   info : "New Season",
+   name :"Miu Miu",
+   description : "cropped wool jacket",
+   price : "$3,340(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/54/29/96/18542996_40149024_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/54/29/96/18542996_40149028_600.jpg",
+   info : "New Season",
+   name :"The Attico",
+   description : "Lula denima miniskirt",
+   price : "$708(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/17/88/03/52/17880352_40015156_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/88/03/52/17880352_40014930_600.jpg",
+   info : "New Season",
+   name :"MACH 7 MACH",
+   description : "Double Bow 95mm mules",
+   price : "$$1,520(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/54/85/15/18548515_40095922_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/54/85/15/18548515_40095922_600.jpg",
+   info : "New Season",
+   name :"Mugler",
+   description : "semi-sheer strapless dress",
+   price : "$2,647(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/54/16/30/18541630_40120546_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/54/16/30/18541630_39974257_600.jpg",
+   info : "New Season",
+   name :"The Attico",
+   description : "mini Friday top handle tote bag",
+   price : "$1,734(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/58/59/66/18585966_40133011_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/58/59/66/18585966_40133013_600.jpg",
+   info : "New Season",
+   name :"Bottega Veneta",
+   description : "long-sleeved knitted polo top",
+   price : "$1,223(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/36/18/31/18361831_40087426_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/36/18/31/18361831_40087423_600.jpg",
+   info : "New Season",
+   name :"Valentino",
+   description : "high-rise wide-leg jeans",
+   price : "$1,042(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/54/64/87/18546487_40046506_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/54/64/87/18546487_40049579_600.jpg",
+   info : "New Season",
+   name :"",
+   description : "",
+   price : "$1,223(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/54/64/87/18546487_40046506_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/54/64/87/18546487_40049579_600.jpg",
+   info : "New Season",
+   name :"Marni",
+   description : "logo-print tote bag",
+   price : "$1,771(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/17/93/96/16/17939616_40034532_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/93/96/16/17939616_40034505_600.jpg",
+   info : "New Season",
+   name :"ZIMMERMANN",
+   description : "Anneke mix-print midi dress",
+   price : "$1,877(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/47/55/00/18475500_39739140_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/47/55/00/18475500_39739142_600.jpg",
+   info : "New Season",
+   name :"Dolce & Gabbana",
+   description : "majolica-print crystalembelished sandals",
+   price : "$1,775(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/17/88/03/73/17880373_39991983_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/88/03/73/17880373_39991987_600.jpg",
+   info : "New Season",
+   name :"Johanna Ortiz",
+   description : "Moonrise At Sea bikini top",
+   price : "$351(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/03/77/02/18037702_39542617_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/03/77/02/18037702_39543580_600.jpg",
+   info : "New Season",
+   name :"GIABORGHINI",
+   description : "chunky open-toe sandals",
+   price : "$737(Import duties included)"
+},{
+   image url :"https://www.farfetch.com/in/shopping/women/ksubi-distressed-effect-denim-shorts-item-17753504.aspx?storeid=13537",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/75/35/04/17753504_39983235_600.jpg",
+   info : "New Season",
+   name :"ksubi",
+   description : "distressed-effect denim shorts",
+   price : "$360(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/53/74/92/18537492_39947796_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/53/74/92/18537492_39947803_600.jpg",
+   info : "New Season",
+   name :"The Attico",
+   description : "sequin-embellished fitted dress",
+   price : "$3,757(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/54/05/58/18540558_40026522_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/54/05/58/18540558_40026499_600.jpg",
+   info : "New Season",
+   name :"Amina Mudaddi",
+   description : "bow-detail 100mm pumps",
+   price : "$2,532(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/52/36/13/18523613_39929151_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/52/36/13/18523613_39928970_600.jpg",
+   info : "New Season",
+   name :"Bottega Veneta",
+   description : "Flap Intrecciato shoulder bag",
+   price : "$4,099(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/17/96/65/31/17966531_40000592_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/96/65/31/17966531_40001171_600.jpg",
+   info : "New Season",
+   name :"Versace",
+   description : "I Ventagli patchwork denim shorts",
+   price : "$1,083(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/18/55/64/15/18556415_40037458_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/55/64/15/18556415_40036590_600.jpg",
+   info : "New Season",
+   name :"TOM FORD eyewear",
+   description : "cat-eye sunglasses",
+   price : "$564(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/17/92/11/48/17921148_40026041_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/92/11/48/17921148_40026048_600.jpg",
+   info : "New Season",
+   name :"JADE Swim",
+   description : "Halo one-shoulder swimsuit",
+   price : "$306(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/17/97/03/33/17970333_37990246_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/97/03/33/17970333_37989140_600.jpg",
+   info : "New Season",
+   name :"Stella McCartney",
+   description : "chain-embellished Air slides",
+   price : "$591(Import duties included)"
 }]
