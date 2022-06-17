@@ -41,12 +41,8 @@ function displayCard1(data1) {
 
         let img = document.createElement("img")
         img.src = el.img1
-        img.addEventListener("mouseover", function () {
-            changePic(el)
-        })
-        img.addEventListener("mouseout", function () {
-            backToImg(el)
-        })
+        img.addEventListener("mouseover",changePic)
+        img.addEventListener("mouseout", backToImg)
 
         let p = document.createElement("p")
         p.innerText = el.info
@@ -60,21 +56,28 @@ function displayCard1(data1) {
         let h4 = document.createElement("h4")
         h4.innerText = el.price
 
-        let btn = document.createElement("button")
+        let btn = document.querySelector("body>button")
         btn.innerText = "Shop Now"
         btn.addEventListener("click", reLocate)
 
-        div.append(img, p, h3, p2, h4, btn)
+        div.append(img, p, h3, p2, h4)
         document.querySelector("#CARD").append(div)
     })
 }
 // sub functions used in displayCard
-function changePic(el) {
-    document.querySelector("#CARD>div>img").src = el.img2
+function changePic() {
+    event.preventDefault();
+    for(let i=0;i<data1.length;i++){
+        document.querySelector("#CARD>div>img").src=data1[2].img2
+    }
+    
 }
 
-function backToImg(el) {
-    document.querySelector("#CARD2>div>img").src = el.img1
+function backToImg() {
+    event.preventDefault();
+    for(let i=0;i<data1.length;i++){
+        document.querySelector("#CARD>div>img").src=data1[2].img1
+    }
 }
 
 function reLocate() {
@@ -143,11 +146,7 @@ function displayCard2(data2) {
         let h4 = document.createElement("h4")
         h4.innerText = el.price
 
-        let btn = document.createElement("button")
-        btn.innerText = "Shop Now"
-        btn.addEventListener("click", reLocate)
-
-        div.append(img, p, h3, p2, h4, btn)
+        div.append(img, p, h3, p2, h4)
         document.querySelector("#CARD2").append(div)
     })
 }
@@ -159,6 +158,3 @@ function backToImg2(el) {
     document.querySelector("#CARD2>div>img").src = el.img1
 }
 
-function reLocate() {
-    document.querySelector("#CARD2>div>btn").src = ""
-}
