@@ -18,7 +18,7 @@ arrObj.forEach(function(elem){
 let box=document.createElement("div")
 let avatar=document.createElement("img")
 avatar.setAttribute("src",elem.image)
-let para1=document.createElement("p")
+let para1=document.createElement("h3")
 para1.innerText=elem.text1;
 let para2=document.createElement("p")
 para2.innerText=elem.text2;
@@ -68,7 +68,7 @@ let arrObj3=[{
    Pp2:"$381",
  },
  {
-   image:"https://cdn-images.farfetch-contents.com/16/29/05/28/16290528_31115700_600.jpg",
+   image:"https://cdn-images.farfetch-contents.com/16/29/05/28/16290528_31118016_1000.jpg",
    heading:"Jordan Kids",
    Pp1:"Air Jordan 1 Retro High Volt Gold sneakers",
    Pp2:"$212",
@@ -78,11 +78,11 @@ arrObj3.forEach(function(elem){
 let b1=document.createElement("div");
 let I1=document.createElement("img")
 I1.setAttribute("src",elem.image);
-let head=document.createElement("h2");
+let head=document.createElement("h3");
 head.innerText=elem.heading
 let p1=document.createElement("p")
 p1.innerText=elem.Pp1;
-let p2=document.createElement("p")
+let p2=document.createElement("h4")
 p2.innerText=elem.Pp2;
 b1.append(I1,head,p1,p2);
 document.querySelector("#container3").append(b1);
