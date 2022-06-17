@@ -91,7 +91,6 @@ mensData=[{
    name : "Valentino",
    description : "VLogo bucket hat",
    price : "$607"
-
 },{
    image url :"https://cdn-images.farfetch-contents.com/18/57/85/34/18578534_40089084_480.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/57/85/34/18578534_40089075_1000.jpg",
@@ -99,15 +98,13 @@ mensData=[{
    name : "7 For All Mankind",
    description : "regular-cut leg jeans",
    price : "$358"
-
 },{
    image url : "https://cdn-images.farfetch-contents.com/18/54/12/51/18541251_40032701_480.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/54/12/51/18541251_40032707_1000.jpg",
    info : "new seasson",
    name : "Rhude",
    description : "high-top leather sneakers",
-   price : "$951"
-   
+   price : "$951"  
 },{
    image url : "https://cdn-images.farfetch-contents.com/18/57/13/76/18571376_40070953_480.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/57/13/76/18571376_40071607_1000.jpg",
@@ -154,8 +151,11 @@ mensData=[{
    description : "button-embossed knitted jumper",
    price : "$1,223(Import duties included)"
 
-},{
-                        womens data have to commit it...
+},]
+
+womensData=[
+   {
+                        
    image url :"https://cdn-images.farfetch-contents.com/18/53/85/36/18538536_39923874_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/53/85/36/18538536_39925286_600.jpg",
    info : "New Season",
@@ -301,5 +301,137 @@ mensData=[{
    info : "New Season",
    name :"Stella McCartney",
    description : "chain-embellished Air slides",
-   price : "$591(Import duties included)"
-}]
+   price : ""
+}
+]
+
+kids_data=[
+   {
+   image url :"https://cdn-images.farfetch-contents.com/17/74/93/21/17749321_37512426_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/74/93/21/17749321_37513987_600.jpg",
+   name :"Perfect Moment Kids",
+   description : "TEEN Isola ski trousers",
+   price : "-50% $320(Import duties included)"
+},{
+   image url :"https://cdn-images.farfetch-contents.com/17/64/62/77/17646277_37231946_1000.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/64/62/77/17646277_37231945_1000.jpg",
+   name :"The Marc Jacobs Kids",
+   description : "dog-print contrast-neckline T-shirt",
+   price : "$71-30%$50(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/64/36/13/17643613_37138584_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/64/36/13/17643613_37138584_600.jpg",
+   name :"The Marc Jacobs Kids",
+   description : "bag-print ruffle dress",
+   price : "$116-30%$81(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/64/36/55/17643655_37232028_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/64/36/55/17643655_37231489_600.jpg",
+   name :"The Marc Jacobs Kids",
+   description : "logo-print short-sleeve T-shirt",
+   price : "$64-30%$45(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/64/36/54/17643654_37229638_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/64/36/54/17643654_37232144_600.jpg",
+   name :"The Marc Jacobs Kids",
+   description : "logo-print short-sleeve T-shirt",
+   price : "$64-30%$45(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/64/52/36/17645236_37213848_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/64/52/36/17645236_37214293_600.jpg",
+   info : "Conscious",
+   name :"The Marc Jacobs Kids",
+   description : "cartoon-print T-shirt",
+   price : "$73-30%$51(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/64/53/42/17645342_37215413_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/64/53/42/17645342_37217005_600.jpg",
+   info : "Conscious",
+   name :"Karl Lagerfeld Kids",
+   description : "logo-print organic cotton T-shirt",
+   price : "$92-50%$46(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/64/52/38/17645238_37229972_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/64/52/38/17645238_37235052_600.jpg",
+   name :"The Marc Jacobs Kids",
+   description : "logo-print colour-block T-shirt",
+   price : "$71-30%$50(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/64/36/47/17643647_37242320_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/64/36/47/17643647_37244172_600.jpg",
+   name :"The Marc Jacobs Kids",
+   description : "Brooklyn NYC denim shorts",
+   price : "$136-30%$95(Import duties included)",
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/64/49/04/17644904_37143059_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/64/49/04/17644904_37141743_600.jpg",
+   info : "Exclusive",
+   name :"Kenzo Kids",
+   description : "Tiger-print short-sleeved T-shirt",
+   price : "$84-30%$59(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/64/72/15/17647215_38220821_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/64/72/15/17647215_38219802_600.jpg",
+   info : "Exclusive",
+   name :"BOSS Kidswear",
+   description : "logo-print swim shorts",
+   price : "$70-30%$49(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/64/59/45/17645945_37149937_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/64/59/45/17645945_37151778_600.jpg",
+   info : "Exclusive",name :"",
+   description : "logo-print swim shorts",
+   price : "$81-30%$57(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/81/17/18/17811718_37402870_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/81/17/18/17811718_37403159_600.jpg",
+   info : "Conscious",
+   name :"Kenzo Kids",
+   description : "logo-print T-shirt",
+   price : "$74-30%$52(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/64/36/30/17643630_37141748_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/64/36/30/17643630_37143067_600.jpg",
+   info : "Conscious",
+   name :"The Marc Jacobs Kids",
+   description : "logo-print T-shirt",
+   price : "$64-30%$45(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/64/51/83/17645183_37258690_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/64/51/83/17645183_37258684_600.jpg",
+   name :"The Marc Jacobs Kids",
+   description : "logo side-stripe shorts",
+   price : "$99-25%$74(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/64/48/13/17644813_37244559_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/64/48/13/17644813_37242609_600.jpg",
+   name :"Kenzo Kids",
+   description : "logo-print shorts",
+   price : "$100-30%$70(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/84/08/21/17840821_37532084_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/84/08/21/17840821_37532083_600.jpg",
+   info : "Conscious",
+   name :"VEJA Kids",
+   description : "touch-strap low-top trainers",
+   price : "$143-30%$100(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/17/87/65/41/17876541_38980292_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/87/65/41/17876541_38979537_600.jpg",
+   name :"Karl Lagerfeld Kids",
+   description : "Smiley-print short-sleeve T-shirt",
+   price : "$60-30%$42(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/18/35/19/25/18351925_39188611_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/35/19/25/18351925_39186356_600.jpg",
+   name :"The Marc Jacobs Kids",
+   description : "logo-print detail pool slides",
+   price : "$90-30%$63(Import duties included)"
+}.{
+   image url :"https://cdn-images.farfetch-contents.com/18/35/19/25/18351925_39188611_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/35/19/25/18351925_39186356_600.jpg",
+   name :"The Marc Jacobs Kids",
+   description : "logo-print detail pool slides",
+   price : ""
+}
+]
