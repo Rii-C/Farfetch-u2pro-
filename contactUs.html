@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            background-color: rgb(243, 243, 243);
+        }
+
+        *>p {
+            font-size: 17px;
+        }
+
+        *>h4 {
+            font-size: 20px;
+        }
+
+        #container {
+            padding: 30px;
+            display: grid;
+            grid-template-columns: 25% 65%;
+            gap: 20px;
+        }
+
+        #menu {
+            font-size: large;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 10px;
+        }
+
+        #menu>div {
+            margin-bottom: 8px;
+        }
+
+        #menu>div>a {
+            color: black;
+        }
+
+        #menu>div>a:hover {
+            color: gray;
+        }
+
+        #abc {
+            margin: 7px 0px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        #abc>div {
+            background-color: white;
+            padding: 30px;
+        }
+
+        #abc>div>p,
+        h3 {
+            margin-bottom: 10px;
+            background-color: white;
+        }
+
+        #emailContainer {
+            margin-top: 3px;
+            padding: 15px;
+            background-color: white;
+        }
+
+        #emailContainer>h2 {
+            display: block;
+            cursor: context-menu;
+            background-color: white;
+        }
+
+        #emailContainer>div,
+        label,
+        p,
+        form,
+        input {
+            background-color: white;
+        }
+
+        #emailContainer>div>form>label {
+            display: block;
+            margin-left: 20px;
+        }
+
+        #emailContainer>div>form {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: auto;
+            gap: 5px;
+        }
+
+        #emailContainer>div>form>input,
+        button {
+            margin: 0px 20px;
+            margin-bottom: 5px;
+            padding: 8px;
+            border: 1px solid gray;
+            border-radius: 8px;
+        }
+
+        #emailContainer>div>form>button {
+            color: white;
+            background-color: black;
+        }
+
+        #bucket {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 10px;
+        }
+
+        #howContainer {
+            padding: 15px;
+            background-color: white;
+        }
+
+        #howContainer>h2 {
+            margin-bottom: 10px;
+        }
+
+        #howContainer>h2,
+        #how {
+            background-color: white;
+        }
+
+        #how>p {
+            background-color: white;
+            margin: 0px 10px 15px 10px;
+            line-height: 18px;
+        }
+
+        #how>h4 {
+            background-color: white;
+            margin: 0px 10px 25px 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="menu">
+            <div> <a href="contactUs.html">Contact us</a> </div>
+            <div> <a href="#">How to shop</a></div>
+            <div> <a href="#">Orders & delivery</a></div>
+            <div> <a href="#">Payment & pricing</a></div>
+            <div> <a href="#">Returns & refunds</a></div>
+            <div> <a href="#">FAQs</a></div>
+            <div> <a href="#">Terms & conditions</a></div>
+            <div> <a href="#">Privacy policy</a></div>
+            <div> <a href="#">Modern slavery statement</a></div>
+            <div> <a href="#">Accessibility</a></div>
+            <div> <a href="#">Do not sell my info</a></div>
+            <div> <a href="#">Promotion terms & conditions</a></div>
+        </div>
+        <div id="main">
+            <h2>Contact us</h2>
+            <div id="abc">
+                <div id="a">
+                    <h3>Call Us</h3>
+                    <p>We're available Monday to Friday, 08:00 - 21:00 EST and Saturday to Sunday, 09:00 - 20:00 EST</p>
+                    <p>+1 646 791 3768</p>
+                    <p>We also offer support in Spanish. Envíanos un email en español utilizando el formulario de
+                        contacto a continuación, o llámanos al +52 55 5350 9445 de lunes a viernes, de 10:00 p. m a 7:00
+                        p. m EST</p>
+                </div>
+                <div id="b">
+                    <h3>FAQs</h3>
+                    <p>Find the answer you need in our FAQs</p>
+                </div>
+                <div id="c">
+                    <h3>We'll be in touch soon</h3>
+                    <p>We aim to respond within 24 hours, but during busy periods like holidays, sales and special
+                        campaigns, we may take a little longer getting back to you. Want to get in touch? Scroll down
+                        for more details.</p>
+                </div>
+            </div>
+            <div id="bucket">
+                <div id="emailContainer">
+                    <h2 id="clickEmail">Email Us</h2>
+                    <div id="email"></div>
+                </div>
+                <div id="howContainer">
+                    <h2 id="clickHow">How to cancel an order or start a return</h2>
+                    <div id="how"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+
+    let email = document.querySelector("#clickEmail")
+    email.addEventListener("click", openDisplay)
+    email.addEventListener("dblclick", function () {
+        document.querySelector("#email").innerHTML = ""
+    })
+
+
+    function openDisplay(event) {
+        document.querySelector("#email").innerHTML = ""
+        event.preventDefault()
+
+        let p = document.createElement("p")
+        p.innerText = "Simply complete the form and click 'send' to submit an enquiry:"
+        p.style.marginLeft = "20px"
+        p.style.marginBottom = "30px"
+        p.style.marginTop = "20px"
+
+        let form = document.createElement("form")
+
+        let labelName = document.createElement("label")
+        labelName.innerText = "Name"
+
+        let name = document.createElement("input")
+        name.setAttribute("type", Text)
+
+        let labelEmail = document.createElement("label")
+        labelEmail.innerText = "Email"
+
+        let Email = document.createElement("input")
+        Email.setAttribute("type", Text)
+
+        let p2 = document.createElement("p")
+        p2.innerText = "Please ensure that your email address is correct so that we can respond to your enquiry."
+        p2.style.marginLeft = "20px"
+        p2.style.marginBottom = "30px"
+
+        let labelContact = document.createElement("label")
+        labelContact.innerText = "Contact Preferences"
+
+        let contact = document.createElement("input")
+        contact.setAttribute("type", Text)
+
+        let labelCountry = document.createElement("label")
+        labelCountry.innerText = "Country Id"
+
+        let country = document.createElement("input")
+        country.setAttribute("type", Text)
+
+        let labelQuery = document.createElement("label")
+        labelQuery.innerText = "Query Type"
+
+        let Query = document.createElement("input")
+        Query.setAttribute("type", Text)
+
+        let labelSubject = document.createElement("label")
+        labelSubject.innerText = "Subject"
+
+        let Subject = document.createElement("input")
+        Subject.setAttribute("type", Text)
+
+        let labelMessage = document.createElement("label")
+        labelMessage.innerText = "Message"
+
+        let Message = document.createElement("input")
+        Message.setAttribute("type", Text)
+
+        let submit = document.createElement("button")
+        submit.innerText = "Send"
+
+
+        form.append(labelName, name, labelEmail, Email, p2, labelContact, contact, labelCountry, country, labelQuery, Query, labelSubject, Subject, labelMessage, Message, submit)
+        document.querySelector("#email").append(p, form)
+
+    }
+
+    let how = document.querySelector("#clickHow")
+    how.addEventListener("click", openHow)
+    how.addEventListener("dblclick", function () {
+        document.querySelector("#how").innerHTML = ""
+    })
+
+
+    function openHow() {
+
+        document.querySelector("#how").innerHTML = ""
+        event.preventDefault()
+
+        let h4a = document.createElement("h4")
+        h4a.innerText = "To cancel your order:"
+
+        let p1 = document.createElement("p")
+        p1.innerText = "1.Go to Orders & Returns if you have an account, or if you placed an order as a guest, enter your guest order details here – you'll need to provide your order number and email address"
+
+        let p2 = document.createElement("p")
+        p2.innerText = "2.Select the items you want to cancel and your reason for cancellation"
+
+        let p3 = document.createElement("p")
+        p3.innerText = "3.We'll email you confirmation of your cancelled order"
+
+        let p4 = document.createElement("p")
+        p4.innerText = "If your order has already been prepared, we can't cancel your order — but we do offer a free returns service."
+
+        let h4b = document.createElement("h4")
+        h4b.innerText = "Here’s what you need to do to book your return:"
+
+        let p5 = document.createElement("p")
+        p5.innerText = "1.Go to Orders & Returns if you have an account. If you placed your order as a guest, enter your guest order details here"
+
+        let p6 = document.createElement("p")
+        p6.innerText = "2.Find the order you want to return and click Return Item(s)"
+
+        let p7 = document.createElement("p")
+        p7.innerText = "3.Select each item and your reason for returning"
+
+        let h4c = document.createElement("h4")
+        h4c.innerText = "There are two ways to return your items. Depending on your location, one will always be available."
+
+        let h4d = document.createElement("h4")
+        h4d.innerText = "1. Book a free returns collection"
+
+        let p8 = document.createElement("p")
+        p8.innerText = "Select your collection address and number of packages, schedule a collection date, suitable time and click Book Collection"
+
+        let h4e = document.createElement("h4")
+        h4e.innerText = "2. Return for free at a drop-off point near you"
+
+        let p9 = document.createElement("p")
+        p9.innerText = "Select the in-store or drop-off option in your account and take the return to your chosen FARFETCH partner boutique or courier drop-off point"
+
+        let h4f = document.createElement("h4")
+        h4f.innerText = "Prepare your return"
+
+        let p10 = document.createElement("p")
+        p10.innerText = "1.Place the item inside the FARFETCH packaging – don't forget any brand boxes, dust bags, or cases"
+
+        let p11 = document.createElement("p")
+        p11.innerText = "2.Attach your Return Label to the outside of the FARFETCH packaging. If you’re returning multiple beauty items that arrived in separate boxes, please package them the same way they arrived with new Return Labels."
+
+        let p12 = document.createElement("p")
+        p12.innerText = "If you received a Return Note with your order, attach it to the outside of your package"
+
+        let p13 = document.createElement("p")
+        p13.innerText = "4.Give the Waybill Doc to the courier. Make a note of the Waybill Number to track your return"
+
+        let h4g = document.createElement("h4")
+        h4g.innerText = "When your package is collected or dropped off, make sure you ask the courier to scan the label so you can track your return."
+
+        let p14 = document.createElement("p")
+        p14.innerText = "All the documents you need to return your item should be included in your FARFETCH package. If you need to reprint them, head to Orders & Returns in your account, or if you placed an order as a guest, enter your guest order details here"
+
+        document.querySelector("#how").append(h4a, p1, p2, p3, p4, h4b, p5, p6, p7, h4c, h4d, p8, h4e, p9, h4f, p10, p11, p12, p13, h4g, p14)
+
+    }
+
+
+</script>
