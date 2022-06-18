@@ -1,5 +1,5 @@
 
-        
+       
        #nav1{
         margin-top: -10px;
         width: 100%;
@@ -136,6 +136,7 @@
     margin-right: 0%;
     padding: 0%;
     padding-left: -5%;
+
 }
 
 .shop-dropdown-content {
@@ -162,7 +163,7 @@
   
   padding: 4px;
   background-color: white;
-  margin-left: 3%;
+  /* margin-left: 3%; */
   
 }
 
@@ -296,10 +297,13 @@
    .row{
     /* border:1px solid red;  */
      margin-top: 25px;
+     /* border: 1px solid red; */
+     background-color: white;
+     height: 600px;
    }
    .right-img{
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 400px;
     float: right;
    }
    .search-btn{
@@ -307,7 +311,7 @@
     width: 50px;
     margin-top: 0px;
     width: 40px; 
-    height: 44px; 
+    height: 40px; 
     text-decoration: none; 
     background-color: white; 
     margin-left: -5px; 

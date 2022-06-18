@@ -22,33 +22,37 @@
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+
 #containerSA>#b>h5 {
     font-size: 25px;
     margin-bottom: -40px;
     font-weight: lighter;
 }
-#containerSA>#b>h4{
-    margin-top: -50px;
+
+#containerSA>#b>h4 {
+    margin-top: -40px;
     font-weight: lighter;
 }
-#containerSA>#b>button{
+
+#containerSA>#b>button {
     width: 30%;
     margin: auto;
     margin-top: -20px;
     padding: 10px 20px;
     font-size: 20px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     background-color: transparent;
     border-radius: 7px;
     border: 1px solid black;
 
 }
+
 /* containerFA */
-#containerFA{
+#containerFA {
     width: 100%;
     margin-bottom: 50px;
     padding: 48px;
@@ -56,7 +60,8 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-#containerFA>#a{
+
+#containerFA>#a {
     text-align: center;
     margin: 0px 0px 0px 24px;
     padding: 48px 48px 0px;
@@ -64,29 +69,33 @@
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-#containerFA>#a>h4{
+
+#containerFA>#a>h4 {
     margin-bottom: -40px;
 }
-#containerFA>#a>p{
+
+#containerFA>#a>p {
     font-size: 19px;
     margin-top: -50px;
 }
-#containerFA>#a>button{
+
+#containerFA>#a>button {
     width: 30%;
     margin: auto;
     margin-top: -20px;
     padding: 10px 20px;
     font-size: 20px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     background-color: transparent;
     border-radius: 7px;
     border: 1px solid black;
 }
+
 /* containerYEE */
-#containerYEE{
+#containerYEE {
     width: 100%;
     margin-bottom: 50px;
     padding: 48px;
@@ -94,15 +103,137 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
+
 #containerYEE>#a>p {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#containerYEE>#b{
-    
+
+#containerYEE>#b {
     display: grid;
     justify-content: center;
     align-items: center;
+}
 
+#containerYEE>#b>a {
+    font-size: larger;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body>h2 {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+/* CARD */
+#CARD {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+}
+
+#CARD>div>img {
+    width: 90%;
+}
+
+#CARD>div>p,
+h3,
+h4 {
+    margin-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body>button {
+    width: 13%;
+    margin: auto;
+    margin-left: 44%;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+/* containerST*/
+#containerST {
+    margin-bottom: 50px;
+    padding: 0px 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+#containerST>div>img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#containerST>div>p {
+    margin-bottom: 8px;
+    font-family: fantasy;
+    color: rgb(145, 141, 141);
+    font-weight: lighter;
+}
+
+/* CARD2 */
+#CARD2 {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+}
+
+#CARD2>div>img {
+    width: 90%;
+}
+
+#CARD2>div>p,
+h3,
+h4 {
+    margin-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* containerTS*/
+#containerTS {
+    margin-bottom: 50px;
+    padding: 0px 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+#containerTS>div>img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#containerTS>div>p {
+    margin-bottom: 8px;
+    font-family: fantasy;
+    color: rgb(46, 43, 43);
+    font-weight: lighter;
+}
+/* containerHLP */
+#containerHLP{
+    padding: 0px 30px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
 }
 
 /* footer styling */
@@ -110,6 +241,9 @@
 #containerfooter {
     background-color: rgb(34, 34, 34);
     padding: 20px 60px;
+}
+.footerP>a{
+    color: white;
 }
 
 .logos {
@@ -138,3 +272,130 @@
     font-size: small;
     margin-bottom: 12px;
 }
+
+/* womens page css */
+
+/* containerFA */
+#GLAMOUR {
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 48px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#GLAMOUR>#a {
+    text-align: center;
+    margin: 0px 0px 0px 24px;
+    padding: 48px 48px 0px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#GLAMOUR>#a>h1 {
+    margin-bottom: -40px;
+}
+
+#GLAMOUR>#a>a {
+    margin-top: -50px;
+    font-size: large;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#containerFA>#a>#Explore{
+    width: 36%;
+    margin: auto;
+    margin-top: -20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+/* kids_page*/
+
+/* container1 */
+#container1{
+    margin-bottom: 80px;
+    padding: 0px 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#container1>div>img{
+    width: 95%;
+    margin-bottom: 20px;
+}
+#container1>div>p,
+h3{
+    margin-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* container2 */
+#container2{
+    margin-bottom: 50px;
+    padding: 0px 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+#container2>div>img{
+    width: 95%;
+    margin-bottom: 20px;
+}
+#container2>div>p {
+    margin-bottom: 8px;
+    font-family: fantasy;
+    color: rgb(46, 43, 43);
+    font-weight: lighter;
+}
+/* container3 */
+#container3 {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+}
+#container3>div>img {
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-bottom: 10px;
+}
+#container3>div>p,
+h3,
+h4 {
+    margin-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* container4 */
+#container4{
+    margin-bottom: 50px;
+    padding: 0px 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+#container4>div>img{
+    width: 95%;
+    margin-bottom: 20px;
+}
+#container4>div>p {
+    margin-bottom: 8px;
+    font-family: fantasy;
+    color: rgb(46, 43, 43);
+    font-weight: lighter;
+}
+
+
+/* media query small screen start from here onwords */
+
