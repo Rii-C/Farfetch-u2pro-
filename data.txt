@@ -3,6 +3,7 @@ mensData=[{
     image_url2:"https://cdn-images.farfetch-contents.com/18/56/91/66/18569166_40092284_1000.jpg",
     info :"New Season",
     name : "KENZO",
+    item : "hoodie"
     description : "Tiger-embroided organic cotton hoodie", 
     price : "$516"
 },
@@ -11,6 +12,7 @@ mensData=[{
     image_url2:"https://cdn-images.farfetch-contents.com/18/36/26/30/18362630_40060078_1000.jpg",
     info : "new seasson",
     name : "VALENTINO",
+    item : "T-shirt"
     description :"camouflage-print cotton T-shirt",
     price :"$617"
 }   {
@@ -18,6 +20,7 @@ mensData=[{
     image_url2:"https://cdn-images.farfetch-contents.com/18/57/28/90/18572890_40034595_1000.jpg",
     info : "new seasson",
     name : "Dsquared2",
+    item : "jeans"
     description :"paint splatter slim-cut jeans",
     price : "$810"
 },{
@@ -25,6 +28,7 @@ mensData=[{
     image_url2:"https://cdn-images.farfetch-contents.com/18/56/97/63/18569763_40086518_1000.jpg",
     info : "new seasson",
     name : "Alecander McQueen"
+    item : "sneakers"
     description : "Court trainer chunky sneakers",
     price : "$1,123"
     
@@ -33,6 +37,7 @@ mensData=[{
     image_url2:"https://cdn-images.farfetch-contents.com/18/56/93/40/18569340_40081101_1000.jpg",
     info : "new seasson",
     name : "Moncler",
+    item : "jacket"
     description :"logo-print zip-fastening jacket",
     price : "$1,397"
 
@@ -41,6 +46,7 @@ mensData=[{
     image_url2:"https://cdn-images.farfetch-contents.com/18/57/21/22/18572122_40072187_1000.jpg",
     info : "new seasson",
     name : "Balmain",
+    item : "cap"
     description :"monogram-print baseball cap",
     price : "$355"
 
@@ -49,6 +55,7 @@ mensData=[{
     image_url2:"https://cdn-images.farfetch-contents.com/18/41/31/91/18413191_40066150_1000.jpg",
     info : "new seasson",
     name : "JW Anderson",
+    item : "T-shirt"
     description : "swirl-logo T-shirt",
     price : "$165"
 },{
@@ -56,6 +63,7 @@ mensData=[{
    image_url2:"https://cdn-images.farfetch-contents.com/18/49/73/98/18497398_40099210_1000.jpg",
    info : "new seasson",
    name : "Garrett Leight",
+   item : "sunglasses"
    description : "cartlon round-frame sunglasses",
    price : "$559"
 
@@ -64,6 +72,7 @@ mensData=[{
    image_url2:"https://cdn-images.farfetch-contents.com/18/57/10/68/18571068_40075774_1000.jpg",                                                                                                                                                                                                                 
    info : "new seasson",
    name : "TOM FORD",
+   item : "sneakers"
    description :"panelled high-top sneakers",
    price : "$1,363"
 
@@ -72,6 +81,7 @@ mensData=[{
    image_url2:"https://cdn-images.farfetch-contents.com/18/57/03/85/18570385_40089393_1000.jpg",
    info : "new seasson",
    name : "Dsquared2",
+   item : "jacket"
    description : "icon colour-block-logo-print jacket",
    price : "$1,120"
 
@@ -81,6 +91,7 @@ mensData=[{
    image_url2:"https://cdn-images.farfetch-contents.com/18/57/93/81/18579381_40077426_1000.jpg",
    info : "new seasson",
    name : "Balmin",
+   item : "T-shirt"
    description : "logo-print short-sleeved T-shirt",
    price : "$431"
      
@@ -89,6 +100,7 @@ mensData=[{
    image_url2:"https://cdn-images.farfetch-contents.com/18/55/55/00/18555500_40056514_1000.jpg",
    info : "new seasson",
    name : "Valentino",
+   item : "hat"
    description : "VLogo bucket hat",
    price : "$607"
 },{
@@ -96,6 +108,7 @@ mensData=[{
    image_url2:"https://cdn-images.farfetch-contents.com/18/57/85/34/18578534_40089075_1000.jpg",
    info : "new seasson",
    name : "7 For All Mankind",
+   item : "jeans"
    description : "regular-cut leg jeans",
    price : "$358"
 },{
@@ -103,6 +116,7 @@ mensData=[{
    image_url2:"https://cdn-images.farfetch-contents.com/18/54/12/51/18541251_40032707_1000.jpg",
    info : "new seasson",
    name : "Rhude",
+   item : "sneakers"
    description : "high-top leather sneakers",
    price : "$951"  
 },{
@@ -110,6 +124,7 @@ mensData=[{
    image_url2:"https://cdn-images.farfetch-contents.com/18/57/13/76/18571376_40071607_1000.jpg",
    info : "new seasson",
    name : "Giorgio Armani",
+   item : "shirt"
    description : "fitted button-up overshirt",
    price : "$4,020"
      
@@ -118,6 +133,7 @@ mensData=[{
    image_url2:"https://cdn-images.farfetch-contents.com/18/56/83/78/18568378_40071885_1000.jpg",
    info : "new seasson",
    name : "Vivienne Westwood",
+   item : "bag"
    description : "signature Orb-plaque crossbody-bag",
    price : "$1,237"
 },{
@@ -125,6 +141,7 @@ mensData=[{
    image_url2:"https://cdn-images.farfetch-contents.com/18/56/19/76/18561976_40053559_1000.jpg",
    info : "new seasson",
    name :"AMIRI",
+   item : "shirt"
    description : "monogram-print short sleeved shirt",
    price : "$1,497"
 },{
@@ -132,6 +149,7 @@ mensData=[{
    image_url2:"https://cdn-images.farfetch-contents.com/18/56/96/53/18569653_40072982_1000.jpg",
    info : "new seasson",
    name :"Giorgio armani",
+   item : "trousers"
    description : "pleated tailored trousers",
    price : "$1,488(Import duties included)"
    
@@ -140,6 +158,7 @@ mensData=[{
    image_url2:"https://cdn-images.farfetch-contents.com/18/56/97/86/18569786_40088088_1000.jpg",
    info : "new seasson",
    name :"Alexander McQueen",
+   item : "shoes"
    description : "lace-up leather ankle boots",
    price : "$1,536(Import duties included)"
 
@@ -148,6 +167,7 @@ mensData=[{
    image_url2:"https://cdn-images.farfetch-contents.com/18/57/29/60/18572960_40063399_600.jpg",
    info : "new seasson",
    name :"Balmain",
+   item : "shirt"
    description : "button-embossed knitted jumper",
    price : "$1,223(Import duties included)"
 
@@ -160,6 +180,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/18/53/85/36/18538536_39925286_600.jpg",
    info : "New Season",
    name :"Miu Miu",
+   item : "jacket",
    description : "cropped wool jacket",
    price : "$3,340(Import duties included)"
 },{
@@ -167,6 +188,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/18/54/29/96/18542996_40149028_600.jpg",
    info : "New Season",
    name :"The Attico",
+   item : "skirt",
    description : "Lula denima miniskirt",
    price : "$708(Import duties included)"
 },{
@@ -174,6 +196,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/17/88/03/52/17880352_40014930_600.jpg",
    info : "New Season",
    name :"MACH 7 MACH",
+   item : "shoes",
    description : "Double Bow 95mm mules",
    price : "$$1,520(Import duties included)"
 },{
@@ -181,6 +204,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/18/54/85/15/18548515_40095922_600.jpg",
    info : "New Season",
    name :"Mugler",
+   item : "dress",
    description : "semi-sheer strapless dress",
    price : "$2,647(Import duties included)"
 },{
@@ -188,6 +212,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/18/54/16/30/18541630_39974257_600.jpg",
    info : "New Season",
    name :"The Attico",
+   item : "bag",
    description : "mini Friday top handle tote bag",
    price : "$1,734(Import duties included)"
 },{
@@ -195,6 +220,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/18/58/59/66/18585966_40133013_600.jpg",
    info : "New Season",
    name :"Bottega Veneta",
+   item : "top",
    description : "long-sleeved knitted polo top",
    price : "$1,223(Import duties included)"
 },{
@@ -202,27 +228,31 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/18/36/18/31/18361831_40087423_600.jpg",
    info : "New Season",
    name :"Valentino",
+   item : "jeans",
    description : "high-rise wide-leg jeans",
    price : "$1,042(Import duties included)"
 },{
-   image url :"https://cdn-images.farfetch-contents.com/18/54/64/87/18546487_40046506_600.jpg",
-   image_url2:"https://cdn-images.farfetch-contents.com/18/54/64/87/18546487_40049579_600.jpg",
+   image url :"https://cdn-images.farfetch-contents.com/17/62/32/04/17623204_37697288_600.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/17/62/32/04/17623204_37697290_600.jpg",
    info : "New Season",
-   name :"",
-   description : "",
+   name :"Balmain",
+   item : "bag",
+   description : "Ely 64.83 shoulder bag",
    price : "$1,223(Import duties included)"
 },{
    image url :"https://cdn-images.farfetch-contents.com/18/54/64/87/18546487_40046506_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/54/64/87/18546487_40049579_600.jpg",
    info : "New Season",
    name :"Marni",
+   item : "bag",
    description : "logo-print tote bag",
-   price : "$1,771(Import duties included)"
+   price : "$2,010(Import duties included)"
 },{
    image url :"https://cdn-images.farfetch-contents.com/17/93/96/16/17939616_40034532_480.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/93/96/16/17939616_40034505_600.jpg",
    info : "New Season",
    name :"ZIMMERMANN",
+   item : "dress",
    description : "Anneke mix-print midi dress",
    price : "$1,877(Import duties included)"
 },{
@@ -230,6 +260,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/18/47/55/00/18475500_39739142_600.jpg",
    info : "New Season",
    name :"Dolce & Gabbana",
+   item : "shoes",
    description : "majolica-print crystalembelished sandals",
    price : "$1,775(Import duties included)"
 },{
@@ -237,6 +268,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/17/88/03/73/17880373_39991987_600.jpg",
    info : "New Season",
    name :"Johanna Ortiz",
+   item : "dress",
    description : "Moonrise At Sea bikini top",
    price : "$351(Import duties included)"
 },{
@@ -244,6 +276,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/18/03/77/02/18037702_39543580_600.jpg",
    info : "New Season",
    name :"GIABORGHINI",
+   item : "shoes",
    description : "chunky open-toe sandals",
    price : "$737(Import duties included)"
 },{
@@ -251,6 +284,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/17/75/35/04/17753504_39983235_600.jpg",
    info : "New Season",
    name :"ksubi",
+   item : "shorts",
    description : "distressed-effect denim shorts",
    price : "$360(Import duties included)"
 },{
@@ -258,6 +292,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/18/53/74/92/18537492_39947803_600.jpg",
    info : "New Season",
    name :"The Attico",
+   item : "bag"
    description : "sequin-embellished fitted dress",
    price : "$3,757(Import duties included)"
 },{
@@ -265,6 +300,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/18/54/05/58/18540558_40026499_600.jpg",
    info : "New Season",
    name :"Amina Mudaddi",
+   item : "shoes"
    description : "bow-detail 100mm pumps",
    price : "$2,532(Import duties included)"
 },{
@@ -272,6 +308,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/18/52/36/13/18523613_39928970_600.jpg",
    info : "New Season",
    name :"Bottega Veneta",
+   item : "bag"
    description : "Flap Intrecciato shoulder bag",
    price : "$4,099(Import duties included)"
 },{
@@ -279,6 +316,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/17/96/65/31/17966531_40001171_600.jpg",
    info : "New Season",
    name :"Versace",
+   item : "shorts"
    description : "I Ventagli patchwork denim shorts",
    price : "$1,083(Import duties included)"
 },{
@@ -286,6 +324,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/18/55/64/15/18556415_40036590_600.jpg",
    info : "New Season",
    name :"TOM FORD eyewear",
+   item : "sunglasses"
    description : "cat-eye sunglasses",
    price : "$564(Import duties included)"
 },{
@@ -293,6 +332,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/17/92/11/48/17921148_40026048_600.jpg",
    info : "New Season",
    name :"JADE Swim",
+   item : "swimsuit",
    description : "Halo one-shoulder swimsuit",
    price : "$306(Import duties included)"
 },{
@@ -300,6 +340,7 @@ womensData=[
    image_url2:"https://cdn-images.farfetch-contents.com/17/97/03/33/17970333_37989140_600.jpg",
    info : "New Season",
    name :"Stella McCartney",
+   item : "shoes",
    description : "chain-embellished Air slides",
    price : ""
 }
@@ -310,30 +351,35 @@ kids_data=[
    image url :"https://cdn-images.farfetch-contents.com/17/74/93/21/17749321_37512426_480.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/74/93/21/17749321_37513987_600.jpg",
    name :"Perfect Moment Kids",
+   item : "trousers",
    description : "TEEN Isola ski trousers",
    price : "-50% $320(Import duties included)"
 },{
    image url :"https://cdn-images.farfetch-contents.com/17/64/62/77/17646277_37231946_1000.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/64/62/77/17646277_37231945_1000.jpg",
    name :"The Marc Jacobs Kids",
+   item : "T-shirt",
    description : "dog-print contrast-neckline T-shirt",
    price : "$71-30%$50(Import duties included)"
 }.{
    image url :"https://cdn-images.farfetch-contents.com/17/64/36/13/17643613_37138584_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/64/36/13/17643613_37138584_600.jpg",
    name :"The Marc Jacobs Kids",
+   item : "dress",
    description : "bag-print ruffle dress",
    price : "$116-30%$81(Import duties included)"
 }.{
    image url :"https://cdn-images.farfetch-contents.com/17/64/36/55/17643655_37232028_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/64/36/55/17643655_37231489_600.jpg",
    name :"The Marc Jacobs Kids",
+   item : "T-shirt",
    description : "logo-print short-sleeve T-shirt",
    price : "$64-30%$45(Import duties included)"
 }.{
    image url :"https://cdn-images.farfetch-contents.com/17/64/36/54/17643654_37229638_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/64/36/54/17643654_37232144_600.jpg",
    name :"The Marc Jacobs Kids",
+   item : "T-shirt",
    description : "logo-print short-sleeve T-shirt",
    price : "$64-30%$45(Import duties included)"
 }.{
@@ -341,6 +387,7 @@ kids_data=[
    image_url2:"https://cdn-images.farfetch-contents.com/17/64/52/36/17645236_37214293_600.jpg",
    info : "Conscious",
    name :"The Marc Jacobs Kids",
+   item : "T-shirt",
    description : "cartoon-print T-shirt",
    price : "$73-30%$51(Import duties included)"
 }.{
@@ -348,18 +395,21 @@ kids_data=[
    image_url2:"https://cdn-images.farfetch-contents.com/17/64/53/42/17645342_37217005_600.jpg",
    info : "Conscious",
    name :"Karl Lagerfeld Kids",
+   item : "T-shirt",
    description : "logo-print organic cotton T-shirt",
    price : "$92-50%$46(Import duties included)"
 }.{
    image url :"https://cdn-images.farfetch-contents.com/17/64/52/38/17645238_37229972_480.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/64/52/38/17645238_37235052_600.jpg",
    name :"The Marc Jacobs Kids",
+   item : "T-shirt",
    description : "logo-print colour-block T-shirt",
    price : "$71-30%$50(Import duties included)"
 }.{
    image url :"https://cdn-images.farfetch-contents.com/17/64/36/47/17643647_37242320_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/64/36/47/17643647_37244172_600.jpg",
    name :"The Marc Jacobs Kids",
+   item : "-shorts",
    description : "Brooklyn NYC denim shorts",
    price : "$136-30%$95(Import duties included)",
 }.{
@@ -367,6 +417,7 @@ kids_data=[
    image_url2:"https://cdn-images.farfetch-contents.com/17/64/49/04/17644904_37141743_600.jpg",
    info : "Exclusive",
    name :"Kenzo Kids",
+   item : "T-shirt",
    description : "Tiger-print short-sleeved T-shirt",
    price : "$84-30%$59(Import duties included)"
 }.{
@@ -374,12 +425,14 @@ kids_data=[
    image_url2:"https://cdn-images.farfetch-contents.com/17/64/72/15/17647215_38219802_600.jpg",
    info : "Exclusive",
    name :"BOSS Kidswear",
+   item : "shorts",
    description : "logo-print swim shorts",
    price : "$70-30%$49(Import duties included)"
 }.{
    image url :"https://cdn-images.farfetch-contents.com/17/64/59/45/17645945_37149937_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/64/59/45/17645945_37151778_600.jpg",
    info : "Exclusive",name :"",
+   item : "shorts",
    description : "logo-print swim shorts",
    price : "$81-30%$57(Import duties included)"
 }.{
@@ -387,6 +440,7 @@ kids_data=[
    image_url2:"https://cdn-images.farfetch-contents.com/17/81/17/18/17811718_37403159_600.jpg",
    info : "Conscious",
    name :"Kenzo Kids",
+   item : "T-shirt",
    description : "logo-print T-shirt",
    price : "$74-30%$52(Import duties included)"
 }.{
@@ -394,18 +448,21 @@ kids_data=[
    image_url2:"https://cdn-images.farfetch-contents.com/17/64/36/30/17643630_37143067_600.jpg",
    info : "Conscious",
    name :"The Marc Jacobs Kids",
+   item : "T-shirt",
    description : "logo-print T-shirt",
    price : "$64-30%$45(Import duties included)"
 }.{
    image url :"https://cdn-images.farfetch-contents.com/17/64/51/83/17645183_37258690_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/64/51/83/17645183_37258684_600.jpg",
    name :"The Marc Jacobs Kids",
+   item : "shorts",
    description : "logo side-stripe shorts",
    price : "$99-25%$74(Import duties included)"
 }.{
    image url :"https://cdn-images.farfetch-contents.com/17/64/48/13/17644813_37244559_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/64/48/13/17644813_37242609_600.jpg",
    name :"Kenzo Kids",
+   item : "shorts",
    description : "logo-print shorts",
    price : "$100-30%$70(Import duties included)"
 }.{
@@ -413,24 +470,28 @@ kids_data=[
    image_url2:"https://cdn-images.farfetch-contents.com/17/84/08/21/17840821_37532083_600.jpg",
    info : "Conscious",
    name :"VEJA Kids",
+   item : "top",
    description : "touch-strap low-top trainers",
    price : "$143-30%$100(Import duties included)"
 }.{
    image url :"https://cdn-images.farfetch-contents.com/17/87/65/41/17876541_38980292_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/87/65/41/17876541_38979537_600.jpg",
    name :"Karl Lagerfeld Kids",
+   item : "T-shirt",
    description : "Smiley-print short-sleeve T-shirt",
    price : "$60-30%$42(Import duties included)"
 }.{
    image url :"https://cdn-images.farfetch-contents.com/18/35/19/25/18351925_39188611_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/35/19/25/18351925_39186356_600.jpg",
    name :"The Marc Jacobs Kids",
+   item : "T-shirt"
    description : "logo-print detail pool slides",
    price : "$90-30%$63(Import duties included)"
 }.{
    image url :"https://cdn-images.farfetch-contents.com/18/35/19/25/18351925_39188611_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/35/19/25/18351925_39186356_600.jpg",
    name :"The Marc Jacobs Kids",
+   item : "T-shirt"
    description : "logo-print detail pool slides",
    price : "$90-30%$63(Import duties included)"
 }
