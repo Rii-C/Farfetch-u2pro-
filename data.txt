@@ -1,4 +1,5 @@
-mensData=[{
+mensData=[
+   {
     image_url :"https://cdn-images.farfetch-contents.com/18/56/91/66/18569166_40085985_480.jpg",
     image_url2:"https://cdn-images.farfetch-contents.com/18/56/91/66/18569166_40092284_1000.jpg",
     info :"New Season",
@@ -15,7 +16,8 @@ mensData=[{
     item : "T-shirt",
     description :"camouflage-print cotton T-shirt",
     price :"$617"
-}   {
+},
+   {
     image_url :"https://cdn-images.farfetch-contents.com/18/57/28/90/18572890_40034601_480.jpg",
     image_url2:"https://cdn-images.farfetch-contents.com/18/57/28/90/18572890_40034595_1000.jpg",
     info : "new seasson",
@@ -23,7 +25,10 @@ mensData=[{
     item : "jeans"
     description :"paint splatter slim-cut jeans",
     price : "$810"
-},{
+
+},
+{
+ main
     image_url : "https://cdn-images.farfetch-contents.com/18/56/97/63/18569763_40086525_480.jpg",
     image_url2:"https://cdn-images.farfetch-contents.com/18/56/97/63/18569763_40086518_1000.jpg",
     info : "new seasson",
@@ -32,7 +37,10 @@ mensData=[{
     description : "Court trainer chunky sneakers",
     price : "$1,123"
     
-},{
+
+},
+{
+main
     image_url : "https://cdn-images.farfetch-contents.com/18/56/93/40/18569340_40081086_480.jpg",
     image_url2:"https://cdn-images.farfetch-contents.com/18/56/93/40/18569340_40081101_1000.jpg",
     info : "new seasson",
@@ -199,7 +207,10 @@ womensData=[
    item : "shoes",
    description : "Double Bow 95mm mules",
    price : "$$1,520(Import duties included)"
-},{
+
+},
+{
+
    image_url :"https://cdn-images.farfetch-contents.com/18/54/85/15/18548515_40095922_480.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/54/85/15/18548515_40095922_600.jpg",
    info : "New Season",
@@ -207,15 +218,22 @@ womensData=[
    item : "dress",
    description : "semi-sheer strapless dress",
    price : "$2,647(Import duties included)"
-},{
+
    image_url :"https://cdn-images.farfetch-contents.com/18/54/16/30/18541630_40120546_600.jpg",
+},
+{
+   image url :"https://cdn-images.farfetch-contents.com/18/54/16/30/18541630_40120546_600.jpg",
+
    image_url2:"https://cdn-images.farfetch-contents.com/18/54/16/30/18541630_39974257_600.jpg",
    info : "New Season",
    name :"The Attico",
    item : "bag",
    description : "mini Friday top handle tote bag",
    price : "$1,734(Import duties included)"
-},{
+
+},
+{
+
    image_url :"https://cdn-images.farfetch-contents.com/18/58/59/66/18585966_40133011_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/58/59/66/18585966_40133013_600.jpg",
    info : "New Season",
@@ -223,7 +241,10 @@ womensData=[
    item : "top",
    description : "long-sleeved knitted polo top",
    price : "$1,223(Import duties included)"
-},{
+
+},
+{
+ 
    image_url :"https://cdn-images.farfetch-contents.com/18/36/18/31/18361831_40087426_480.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/36/18/31/18361831_40087423_600.jpg",
    info : "New Season",
@@ -231,7 +252,10 @@ womensData=[
    item : "jeans",
    description : "high-rise wide-leg jeans",
    price : "$1,042(Import duties included)"
-},{
+
+},
+{
+
    image_url :"https://cdn-images.farfetch-contents.com/17/62/32/04/17623204_37697288_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/62/32/04/17623204_37697290_600.jpg",
    info : "New Season",
@@ -239,7 +263,10 @@ womensData=[
    item : "bag",
    description : "Ely 64.83 shoulder bag",
    price : "$1,223(Import duties included)"
-},{
+
+},
+{
+
    image_url :"https://cdn-images.farfetch-contents.com/18/54/64/87/18546487_40046506_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/54/64/87/18546487_40049579_600.jpg",
    info : "New Season",
@@ -247,7 +274,10 @@ womensData=[
    item : "bag",
    description : "logo-print tote bag",
    price : "$2,010(Import duties included)"
-},{
+
+},
+{
+
    image_url :"https://cdn-images.farfetch-contents.com/17/93/96/16/17939616_40034532_480.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/93/96/16/17939616_40034505_600.jpg",
    info : "New Season",
@@ -255,7 +285,10 @@ womensData=[
    item : "dress",
    description : "Anneke mix-print midi dress",
    price : "$1,877(Import duties included)"
-},{
+
+},
+{
+
    image_url :"https://cdn-images.farfetch-contents.com/18/47/55/00/18475500_39739140_480.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/47/55/00/18475500_39739142_600.jpg",
    info : "New Season",
@@ -263,7 +296,10 @@ womensData=[
    item : "shoes",
    description : "majolica-print crystalembelished sandals",
    price : "$1,775(Import duties included)"
-},{
+
+},
+{
+
    image_url :"https://cdn-images.farfetch-contents.com/17/88/03/73/17880373_39991983_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/88/03/73/17880373_39991987_600.jpg",
    info : "New Season",
@@ -271,7 +307,11 @@ womensData=[
    item : "dress",
    description : "Moonrise At Sea bikini top",
    price : "$351(Import duties included)"
-},{
+
+},
+
+{
+
    image_url :"https://cdn-images.farfetch-contents.com/18/03/77/02/18037702_39542617_480.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/03/77/02/18037702_39543580_600.jpg",
    info : "New Season",
@@ -279,7 +319,10 @@ womensData=[
    item : "shoes",
    description : "chunky open-toe sandals",
    price : "$737(Import duties included)"
-},{
+
+},
+{
+
    image_url :"https://www.farfetch.com/in/shopping/women/ksubi-distressed-effect-denim-shorts-item-17753504.aspx?storeid=13537",
    image_url2:"https://cdn-images.farfetch-contents.com/17/75/35/04/17753504_39983235_600.jpg",
    info : "New Season",
@@ -287,7 +330,10 @@ womensData=[
    item : "shorts",
    description : "distressed-effect denim shorts",
    price : "$360(Import duties included)"
-},{
+
+},
+{
+
    image_url :"https://cdn-images.farfetch-contents.com/18/53/74/92/18537492_39947796_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/53/74/92/18537492_39947803_600.jpg",
    info : "New Season",
@@ -295,7 +341,10 @@ womensData=[
    item : "bag"
    description : "sequin-embellished fitted dress",
    price : "$3,757(Import duties included)"
-},{
+
+},
+{
+
    image_url :"https://cdn-images.farfetch-contents.com/18/54/05/58/18540558_40026522_480.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/54/05/58/18540558_40026499_600.jpg",
    info : "New Season",
@@ -303,7 +352,10 @@ womensData=[
    item : "shoes"
    description : "bow-detail 100mm pumps",
    price : "$2,532(Import duties included)"
-},{
+
+},
+{
+
    image_url :"https://cdn-images.farfetch-contents.com/18/52/36/13/18523613_39929151_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/52/36/13/18523613_39928970_600.jpg",
    info : "New Season",
@@ -311,7 +363,10 @@ womensData=[
    item : "bag"
    description : "Flap Intrecciato shoulder bag",
    price : "$4,099(Import duties included)"
-},{
+
+},
+{
+
    image_url :"https://cdn-images.farfetch-contents.com/17/96/65/31/17966531_40000592_480.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/96/65/31/17966531_40001171_600.jpg",
    info : "New Season",
@@ -319,7 +374,9 @@ womensData=[
    item : "shorts"
    description : "I Ventagli patchwork denim shorts",
    price : "$1,083(Import duties included)"
-},{
+
+},
+{
    image_url :"https://cdn-images.farfetch-contents.com/18/55/64/15/18556415_40037458_480.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/18/55/64/15/18556415_40036590_600.jpg",
    info : "New Season",
@@ -327,7 +384,9 @@ womensData=[
    item : "sunglasses"
    description : "cat-eye sunglasses",
    price : "$564(Import duties included)"
-},{
+
+},
+{
    image_url :"https://cdn-images.farfetch-contents.com/17/92/11/48/17921148_40026041_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/92/11/48/17921148_40026048_600.jpg",
    info : "New Season",
@@ -335,14 +394,17 @@ womensData=[
    item : "swimsuit",
    description : "Halo one-shoulder swimsuit",
    price : "$306(Import duties included)"
-},{
+
+},
+{
+
    image_url :"https://cdn-images.farfetch-contents.com/17/97/03/33/17970333_37990246_600.jpg",
    image_url2:"https://cdn-images.farfetch-contents.com/17/97/03/33/17970333_37989140_600.jpg",
    info : "New Season",
    name :"Stella McCartney",
    item : "shoes",
    description : "chain-embellished Air slides",
-   price : ""
+   price : "$48748"
 }
 ]
 
