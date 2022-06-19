@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mensData</title>
+    <style>
+         * {
+         margin: 0px;
+         padding: 0px;
+         box-sizing: border-box;
+      }
+
+      #container {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-template-rows: auto;
+         gap: 20px;
+      }
+
+      #container>div>img {
+         width: 100%;
+      }
+
+      #filter {
+         padding: 10px;
+         font-size: 20px;
+         border: none;
+
+      }
+    </style>
+</head>
+<body>
+    <select id="filter">
+        <option value="All">All</option>
+        <option value="T-shirt">T-shirt</option>
+        <option value="jeans">jeans</option>
+        <option value="shorts">shorts</option>
+        <option value="hoodie">hoodie</option>
+        <option value="trousers">trousers</option>
+        <option value="jacket">jacket</option>
+  
+     </select>
+     <div id="container">
+        <!-- All products data append here -->
+     </div>
+  
+</body>
+</html>
+<script>
+    let mensData=[ 
+   {
+    image_url :"https://cdn-images.farfetch-contents.com/18/56/91/66/18569166_40085985_480.jpg",
+    image_url2:"https://cdn-images.farfetch-contents.com/18/56/91/66/18569166_40092284_1000.jpg",
+    info :"New Season",
+    name : "KENZO",
+    item : "hoodie",
+    description : "Tiger-embroided organic cotton hoodie", 
+    price : "$516"
+},
+{
+    image_url : "https://cdn-images.farfetch-contents.com/18/36/26/30/18362630_40060060_480.jpg",
+    image_url2:"https://cdn-images.farfetch-contents.com/18/36/26/30/18362630_40060078_1000.jpg",
+    info : "new seasson",
+    name : "VALENTINO",
+    item : "T-shirt",
+    description :"camouflage-print cotton T-shirt",
+    price :"$617"
+},
+{
+    image_url :"https://cdn-images.farfetch-contents.com/18/57/28/90/18572890_40034601_480.jpg",
+    image_url2:"https://cdn-images.farfetch-contents.com/18/57/28/90/18572890_40034595_1000.jpg",
+    info : "new seasson",
+    name : "Dsquared2",
+    item : "jeans",
+    description :"paint splatter slim-cut jeans",
+    price : "$810"
+
+},
+{
+    image_url : "https://cdn-images.farfetch-contents.com/18/56/97/63/18569763_40086525_480.jpg",
+    image_url2:"https://cdn-images.farfetch-contents.com/18/56/97/63/18569763_40086518_1000.jpg",
+    info : "new seasson",
+    name : "Alecander McQueen",
+    item : "sneakers",
+    description : "Court trainer chunky sneakers",
+    price : "$1,123"
+},
+{
+    image_url : "https://cdn-images.farfetch-contents.com/18/56/93/40/18569340_40081086_480.jpg",
+    image_url2:"https://cdn-images.farfetch-contents.com/18/56/93/40/18569340_40081101_1000.jpg",
+    info : "new seasson",
+    name : "Moncler",
+    item : "jacket",
+    description :"logo-print zip-fastening jacket",
+    price : "$1,397"
+
+},{
+    image_url : "https://cdn-images.farfetch-contents.com/18/57/21/22/18572122_40072177_480.jpg",
+    image_url2:"https://cdn-images.farfetch-contents.com/18/57/21/22/18572122_40072187_1000.jpg",
+    info : "new seasson",
+    name : "Balmain",
+    item : "cap",
+    description :"monogram-print baseball cap",
+    price : "$355"
+
+},{
+    image_url : "https://cdn-images.farfetch-contents.com/18/41/31/91/18413191_40066147_480.jpg",
+    image_url2:"https://cdn-images.farfetch-contents.com/18/41/31/91/18413191_40066150_1000.jpg",
+    info : "new seasson",
+    name : "JW Anderson",
+    item : "T-shirt",
+    description : "swirl-logo T-shirt",
+    price : "$165"
+},{
+   image_url : "https://cdn-images.farfetch-contents.com/18/49/73/98/18497398_40099212_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/49/73/98/18497398_40099210_1000.jpg",
+   info : "new seasson",
+   name : "Garrett Leight",
+   item : "sunglasses",
+   description : "cartlon round-frame sunglasses",
+   price : "$559"
+
+},{
+   image_url : "https://cdn-images.farfetch-contents.com/18/57/10/68/18571068_40073424_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/57/10/68/18571068_40075774_1000.jpg",                                                                                                                                                                                                                 
+   info : "new seasson",
+   name : "TOM FORD",
+   item : "sneakers",
+   description :"panelled high-top sneakers",
+   price : "$1,363"
+
+},{
+   image_url :"https://cdn-images.farfetch-contents.com/18/57/03/85/18570385_40090540_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/57/03/85/18570385_40089393_1000.jpg",
+   info : "new seasson",
+   name : "Dsquared2",
+   item : "jacket",
+   description : "icon colour-block-logo-print jacket",
+   price : "$1,120"
+
+   
+},{
+   image_url :"https://cdn-images.farfetch-contents.com/18/57/93/81/18579381_40078526_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/57/93/81/18579381_40077426_1000.jpg",
+   info : "new seasson",
+   name : "Balmin",
+   item : "T-shirt",
+   description : "logo-print short-sleeved T-shirt",
+   price : "$431"
+     
+},{
+   image_url :"https://cdn-images.farfetch-contents.com/18/55/55/00/18555500_40055871_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/55/55/00/18555500_40056514_1000.jpg",
+   info : "new seasson",
+   name : "Valentino",
+   item : "hat",
+   description : "VLogo bucket hat",
+   price : "$607"
+},{
+   image_url :"https://cdn-images.farfetch-contents.com/18/57/85/34/18578534_40089084_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/57/85/34/18578534_40089075_1000.jpg",
+   info : "new seasson",
+   name : "7 For All Mankind",
+   item : "jeans",
+   description : "regular-cut leg jeans",
+   price : "$358"
+},{
+   image_url : "https://cdn-images.farfetch-contents.com/18/54/12/51/18541251_40032701_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/54/12/51/18541251_40032707_1000.jpg",
+   info : "new seasson",
+   name : "Rhude",
+   item : "sneakers",
+   description : "high-top leather sneakers",
+   price : "$951"  
+},{
+   image_url : "https://cdn-images.farfetch-contents.com/18/57/13/76/18571376_40070953_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/57/13/76/18571376_40071607_1000.jpg",
+   info : "new seasson",
+   name : "Giorgio Armani",
+   item : "shirt",
+   description : "fitted button-up overshirt",
+   price : "$4,020"
+     
+},{
+   image_url :"https://cdn-images.farfetch-contents.com/18/56/83/78/18568378_40071882_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/56/83/78/18568378_40071885_1000.jpg",
+   info : "new seasson",
+   name : "Vivienne Westwood",
+   item : "bag",
+   description : "signature Orb-plaque crossbody-bag",
+   price : "$1,237"
+},{
+   image_url :"https://cdn-images.farfetch-contents.com/18/56/19/76/18561976_40048329_480.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/56/19/76/18561976_40053559_1000.jpg",
+   info : "new seasson",
+   name :"AMIRI",
+   item : "shirt",
+   description : "monogram-print short sleeved shirt",
+   price : "$1,497"
+},{
+   image_url :"https://cdn-images.farfetch-contents.com/18/56/96/53/18569653_40072979_1000.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/56/96/53/18569653_40072982_1000.jpg",
+   info : "new seasson",
+   name :"Giorgio armani",
+   item : "trousers",
+   description : "pleated tailored trousers",
+   price : "$1,488(Import duties included)"
+   
+},{
+   image_url :"https://cdn-images.farfetch-contents.com/18/56/97/86/18569786_40088086_1000.jpg",
+   image_url2:"https://cdn-images.farfetch-contents.com/18/56/97/86/18569786_40088088_1000.jpg",
+   info : "new seasson",
+   name :"Alexander McQueen",
+   item : "shoes",
+   description : "lace-up leather ankle boots",
+   price : "$1,536(Import duties included)"
+
+}]
+
+displayData(mensData);
+   let cartLS = JSON.parse(localStorage.getItem("cart-page")) || []
+   function displayData(mensData) {
+      document.querySelector("#container").innerHTML = "";
+      mensData.forEach(function (elem) {
+         let box = document.createElement("div")
+         let image = document.createElement("img")
+         image.setAttribute("src", elem.image_url)
+         let Name = document.createElement("p")
+         Name.innerText = elem.name
+         let Item = document.createElement("p")
+         Item.innerText = elem.item
+         let Des = document.createElement("p")
+         Des.innerText = elem.description
+         let Price = document.createElement("p")
+         Price.innerText = elem.price
+         let btn = document.createElement("button")
+         btn.innerText = "addToCart"
+         btn.addEventListener("click", function () {
+            if (addCart(elem.description) == true) {
+               alert("Product added successfully")
+               cartLS.push(elem)
+               localStorage.setItem("cart-page", JSON.stringify(cartLS))
+            } else {
+               alert("Product already exist")
+            }
+         })
+         box.append(image, Name, Item, Des, Price, btn)
+         document.querySelector("#container").append(box)
+      })
+   }
+   document.querySelector("#filter").addEventListener("change", filterFun)
+
+   function filterFun() {
+      if (filter.value == "All") {
+         displayData(mensData)
+      } else {
+         let filtered = mensData.filter(function (elem) {
+            return elem.item == filter.value
+         })
+         displayData(filtered)
+      }
+   }
+   function addCart(des) {
+      for (let i = 0; i < cartLS.length; i++) {
+         if (cartLS[i].description == des) {
+            return false
+         }
+      }
+      return true
+   }
+</script>

@@ -200,9 +200,12 @@
 }
 
 function goToMens(){
-    window.location.href="navbar.html"
+    window.location.href="index.html"
 }
 
 function goToKids(){
     window.location.href="kidsPage.html"
+}
+function goToWomensPo(){
+  window.location.href="womenProdPge.html"
 }
