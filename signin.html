@@ -194,7 +194,7 @@
         </div>
         <div class="for">
           <img src="https://www.bing.com/th?id=OIP.aYVbqEFb2M-SWsBh_LafIQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2" alt="">
-          <p>Continuw with facebook</p>
+          <p>Continue with facebook</p>
         </div>
         <p
           style="
@@ -217,8 +217,8 @@
   var frm = document.getElementById("frm");
   frm.addEventListener("submit", signin);
 
-  function signin(e) {
-    e.preventDefault();
+  function signin(event) {
+    event.preventDefault();
     var email1 = document.getElementById("email");
     var pass1 = document.getElementById("password");
     var c = 0;
@@ -230,7 +230,7 @@
       }
     }
     if (c == data.length) {
-      alert("Sign In successfully");
+      alert("Sign In success");
     }
   }
 </script>

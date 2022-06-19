@@ -224,8 +224,8 @@
     document.getElementById("frm").addEventListener("submit", callfun);
     var data = JSON.parse(localStorage.getItem("createaccount")) || [];
 
-    function callfun(e) {
-        e.preventDefault();
+    function callfun(event) {
+        event.preventDefault();
         // var data = [];
         var email = document.getElementById("email").value;
         var name=document.getElementById("name").value
