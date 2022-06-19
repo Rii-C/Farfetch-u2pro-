@@ -170,4 +170,7 @@ function goToKids(){
     window.location.href="kidsPage.html"
 }
 
+function goToLogin(){
+    window.location.href="register.html"
+}
 
