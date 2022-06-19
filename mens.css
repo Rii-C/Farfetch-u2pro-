@@ -118,6 +118,7 @@
     font-size: larger;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }
 
 body>h2 {
