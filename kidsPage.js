@@ -109,3 +109,15 @@ paragraph2.innerText=elem.para2;
 boxes.append(Image,paragraph1,paragraph2);
 document.querySelector("#container4").append(boxes)
 })
+
+function goToWomens(){
+  window.location.href="womens.html"
+}
+
+function goToMens(){
+  window.location.href="navbar.html"
+}
+
+function goToKids(){
+  window.location.href="kidsPage.html"
+}

@@ -195,3 +195,14 @@
     document.querySelector("#containerTS").append(chart)
 
   }) 
+  function goToWomens(){
+    window.location.href="womens.html"
+}
+
+function goToMens(){
+    window.location.href="navbar.html"
+}
+
+function goToKids(){
+    window.location.href="kidsPage.html"
+}
