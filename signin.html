@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sign In</title>
     <style>
       * {
         margin: 0;
@@ -16,9 +16,11 @@
       }
       #main {
         text-align: center;
-        width: 25%;
+        width: 28%;
         padding: 20px;
         margin: 30px auto;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 8px;
       }
       #main h2 {
         color: var(--colors-modality-primary-enabled-label);
@@ -194,7 +196,7 @@
         </div>
         <div class="for">
           <img src="https://www.bing.com/th?id=OIP.aYVbqEFb2M-SWsBh_LafIQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2" alt="">
-          <p>Continuw with facebook</p>
+          <p>Continue with facebook</p>
         </div>
         <p
           style="
@@ -217,20 +219,24 @@
   var frm = document.getElementById("frm");
   frm.addEventListener("submit", signin);
 
-  function signin(e) {
-    e.preventDefault();
+  function signin(event) {
+    event.preventDefault();
     var email1 = document.getElementById("email");
     var pass1 = document.getElementById("password");
     var c = 0;
     for (i = 0; i < data.length; i++) {
       if (data[i].email == email1.value && data[i].password == pass1.value) {
+        alert("Invalid credential");
         window.location.href = "index.html";
       } else {
         c++;
+        // alert("Sign In success");
+        // alert("Invalid credential");
       }
     }
     if (c == data.length) {
-      alert("Sign In successfully");
+      alert("Sign In success");
+      window.location.href = "navbar.html";
     }
   }
 </script>
