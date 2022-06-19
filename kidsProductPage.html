@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Product Page</title>
+   <style>
+      * {
+         margin: 0px;
+         padding: 0px;
+         box-sizing: border-box;
+      }
+
+      #container {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-template-rows: auto;
+         gap: 20px;
+      }
+
+      #container>div>img {
+         width: 100%;
+      }
+
+      #filter {
+         padding: 10px;
+         font-size: 20px;
+         border: none;
+
+      }
+   </style>
+</head>
+
+<body>
+
+   <select id="filter">
+      <option value="All">All</option>
+      <option value="T-shirt">T-shirt</option>
+      <option value="top">top</option>
+      <option value="shorts">shorts</option>
+      <option value="dress">dress</option>
+      <option value="trousers">trousers</option>
+
+   </select>
+   <div id="container">
+      <!-- All products data append here -->
+   </div>
+
+
+</body>
+
+</html>
+<script>
+   let product = [
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/74/93/21/17749321_37512426_480.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/74/93/21/17749321_37513987_600.jpg",
+         name: "Perfect Moment Kids",
+         item: "trousers",
+         description: "TEEN Isola ski trousers",
+         price: "-50% $320(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/64/62/77/17646277_37231946_1000.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/64/62/77/17646277_37231945_1000.jpg",
+         name: "The Marc Jacobs Kids",
+         item: "T-shirt",
+         description: "dog-print contrast-neckline T-shirt",
+         price: "$71-30%$50(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/64/36/13/17643613_37138584_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/64/36/13/17643613_37138584_600.jpg",
+         name: "The Marc Jacobs Kids",
+         item: "dress",
+         description: "bag-print ruffle dress",
+         price: "$116-30%$81(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/64/36/55/17643655_37232028_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/64/36/55/17643655_37231489_600.jpg",
+         name: "The Marc Jacobs Kids",
+         item: "T-shirt",
+         description: "logo-print short-sleeve T-shirt",
+         price: "$64-30%$45(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/64/36/54/17643654_37229638_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/64/36/54/17643654_37232144_600.jpg",
+         name: "The Marc Jacobs Kids",
+         item: "T-shirt",
+         description: "logo-print short-sleeve T-shirt",
+         price: "$64-30%$45(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/64/52/36/17645236_37213848_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/64/52/36/17645236_37214293_600.jpg",
+         info: "Conscious",
+         name: "The Marc Jacobs Kids",
+         item: "T-shirt",
+         description: "cartoon-print T-shirt",
+         price: "$73-30%$51(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/64/53/42/17645342_37215413_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/64/53/42/17645342_37217005_600.jpg",
+         info: "Conscious",
+         name: "Karl Lagerfeld Kids",
+         item: "T-shirt",
+         description: "logo-print organic cotton T-shirt",
+         price: "$92-50%$46(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/64/52/38/17645238_37229972_480.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/64/52/38/17645238_37235052_600.jpg",
+         name: "The Marc Jacobs Kids",
+         item: "T-shirt",
+         description: "logo-print colour-block T-shirt",
+         price: "$71-30%$50(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/64/36/47/17643647_37242320_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/64/36/47/17643647_37244172_600.jpg",
+         name: "The Marc Jacobs Kids",
+         item: "shorts",
+         description: "Brooklyn NYC denim shorts",
+         price: "$136-30%$95(Import duties included)",
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/64/49/04/17644904_37143059_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/64/49/04/17644904_37141743_600.jpg",
+         info: "Exclusive",
+         name: "Kenzo Kids",
+         item: "T-shirt",
+         description: "Tiger-print short-sleeved T-shirt",
+         price: "$84-30%$59(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/64/72/15/17647215_38220821_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/64/72/15/17647215_38219802_600.jpg",
+         info: "Exclusive",
+         name: "BOSS Kidswear",
+         item: "shorts",
+         description: "logo-print swim shorts",
+         price: "$70-30%$49(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/64/59/45/17645945_37149937_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/64/59/45/17645945_37151778_600.jpg",
+         info: "Exclusive", name: "",
+         item: "shorts",
+         description: "logo-print swim shorts",
+         price: "$81-30%$57(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/81/17/18/17811718_37402870_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/81/17/18/17811718_37403159_600.jpg",
+         info: "Conscious",
+         name: "Kenzo Kids",
+         item: "T-shirt",
+         description: "logo-print T-shirt",
+         price: "$74-30%$52(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/64/36/30/17643630_37141748_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/64/36/30/17643630_37143067_600.jpg",
+         info: "Conscious",
+         name: "The Marc Jacobs Kids",
+         item: "T-shirt",
+         description: "logo-print T-shirt",
+         price: "$64-30%$45(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/64/51/83/17645183_37258690_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/64/51/83/17645183_37258684_600.jpg",
+         name: "The Marc Jacobs Kids",
+         item: "shorts",
+         description: "logo side-stripe shorts",
+         price: "$99-25%$74(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/64/48/13/17644813_37244559_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/64/48/13/17644813_37242609_600.jpg",
+         name: "Kenzo Kids",
+         item: "shorts",
+         description: "logo-print shorts",
+         price: "$100-30%$70(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/84/08/21/17840821_37532084_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/84/08/21/17840821_37532083_600.jpg",
+         info: "Conscious",
+         name: "VEJA Kids",
+         item: "top",
+         description: "touch-strap low-top trainers",
+         price: "$143-30%$100(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/17/87/65/41/17876541_38980292_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/17/87/65/41/17876541_38979537_600.jpg",
+         name: "Karl Lagerfeld Kids",
+         item: "T-shirt",
+         description: "Smiley-print short-sleeve T-shirt",
+         price: "$60-30%$42(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/18/35/19/25/18351925_39188611_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/18/35/19/25/18351925_39186356_600.jpg",
+         name: "The Marc Jacobs Kids",
+         item: "T-shirt",
+         description: "logo-print detail pool slides",
+         price: "$90-30%$63(Import duties included)"
+      },
+      {
+         image_url: "https://cdn-images.farfetch-contents.com/18/35/19/25/18351925_39188611_600.jpg",
+         image_url2: "https://cdn-images.farfetch-contents.com/18/35/19/25/18351925_39186356_600.jpg",
+         name: "The Marc Jacobs Kids",
+         item: "T-shirt",
+         description: "logo-print detail pool slides",
+         price: "$90-30%$63(Import duties included)"
+      }
+   ]
+
+
+   displayData(product);
+   let cartLS = JSON.parse(localStorage.getItem("cart-page")) || []
+   function displayData(product) {
+      document.querySelector("#container").innerHTML = "";
+      product.forEach(function (elem) {
+         let box = document.createElement("div")
+         let image = document.createElement("img")
+         image.setAttribute("src", elem.image_url)
+         let Name = document.createElement("p")
+         Name.innerText = elem.name
+         let Item = document.createElement("p")
+         Item.innerText = elem.item
+         let Des = document.createElement("p")
+         Des.innerText = elem.description
+         let Price = document.createElement("p")
+         Price.innerText = elem.price
+         let btn = document.createElement("button")
+         btn.innerText = "addToCart"
+         btn.addEventListener("click", function () {
+            if (addCart(elem.description) == true) {
+               alert("product added successfully")
+               cartLS.push(elem)
+               localStorage.setItem("cart-page", JSON.stringify(cartLS))
+            } else {
+               alert("product already exist")
+            }
+         })
+         box.append(image, Name, Item, Des, Price, btn)
+         document.querySelector("#container").append(box)
+      })
+   }
+   document.querySelector("#filter").addEventListener("change", filterFun)
+
+   function filterFun() {
+      if (filter.value == "All") {
+         displayData(product)
+      } else {
+         let filtered = product.filter(function (elem) {
+            return elem.item == filter.value
+         })
+         displayData(filtered)
+      }
+   }
+   function addCart(des) {
+      for (let i = 0; i < cartLS.length; i++) {
+         if (cartLS[i].description == des) {
+            return false
+         }
+      }
+      return true
+   }
+
+
+
+</script>

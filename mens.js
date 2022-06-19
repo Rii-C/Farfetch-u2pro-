@@ -163,7 +163,7 @@ function goToWomens(){
 }
 
 function goToMens(){
-    window.location.href="navbar.html"
+    window.location.href="index.html"
 }
 
 function goToKids(){
@@ -174,3 +174,6 @@ function goToLogin(){
     window.location.href="register.html"
 }
 
+function goToProduct(){
+    window.location.href="mensProductPage.html"
+}

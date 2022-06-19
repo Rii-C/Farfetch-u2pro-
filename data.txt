@@ -1,4 +1,4 @@
-mensData=[
+mensData=[ 
    {
     image_url :"https://cdn-images.farfetch-contents.com/18/56/91/66/18569166_40085985_480.jpg",
     image_url2:"https://cdn-images.farfetch-contents.com/18/56/91/66/18569166_40092284_1000.jpg",
@@ -8,7 +8,7 @@ mensData=[
     description : "Tiger-embroided organic cotton hoodie", 
     price : "$516"
 },
-  {
+{
     image_url : "https://cdn-images.farfetch-contents.com/18/36/26/30/18362630_40060060_480.jpg",
     image_url2:"https://cdn-images.farfetch-contents.com/18/36/26/30/18362630_40060078_1000.jpg",
     info : "new seasson",
@@ -17,7 +17,7 @@ mensData=[
     description :"camouflage-print cotton T-shirt",
     price :"$617"
 },
-   {
+{
     image_url :"https://cdn-images.farfetch-contents.com/18/57/28/90/18572890_40034601_480.jpg",
     image_url2:"https://cdn-images.farfetch-contents.com/18/57/28/90/18572890_40034595_1000.jpg",
     info : "new seasson",
@@ -28,7 +28,6 @@ mensData=[
 
 },
 {
- main
     image_url : "https://cdn-images.farfetch-contents.com/18/56/97/63/18569763_40086525_480.jpg",
     image_url2:"https://cdn-images.farfetch-contents.com/18/56/97/63/18569763_40086518_1000.jpg",
     info : "new seasson",
@@ -36,11 +35,8 @@ mensData=[
     item : "sneakers",
     description : "Court trainer chunky sneakers",
     price : "$1,123"
-    
-
 },
 {
-main
     image_url : "https://cdn-images.farfetch-contents.com/18/56/93/40/18569340_40081086_480.jpg",
     image_url2:"https://cdn-images.farfetch-contents.com/18/56/93/40/18569340_40081101_1000.jpg",
     info : "new seasson",
@@ -179,7 +175,7 @@ main
    description : "button-embossed knitted jumper",
    price : "$1,223(Import duties included)"
 
-},]
+}]
 
 womensData=[
    {
